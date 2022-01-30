@@ -14,7 +14,7 @@ function playMusic() {
     var player = document.getElementById("audio");
     play();
     function play(){
-    swal("这里是我的引导页面\n这样你就不会在这里迷路了😋\n提一下音乐手机放不了(。_。)", {
+    swal("这里是我的引导页面\n这样你就不会在这里迷路了😋\n点一下音乐也挺好听的(。_。)", {
             buttons: {
                 cancel: "音乐",
                 allow: "确认"
