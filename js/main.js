@@ -14,7 +14,7 @@ function playMusic() {
     var player = document.getElementById("audio");
     play();
     function play(){
-    swal("欢迎浏览我的引导\n请问是否开启音乐\n一边浏览一边听呢？", {
+    swal("欢迎浏览我的引导\n请问是否开启音乐\n手机可能无效", {
             buttons: {
                 cancel: "开启",
                 allow: "关闭"
